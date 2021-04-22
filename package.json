@@ -1,0 +1,59 @@
+{
+  "name": "githubpro",
+  "version": "1.0.0",
+  "description": "A nicer look at your GitHub Profile! With charts!",
+  "keywords": [],
+  "author": "Mohit Jaisal",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "now-build": "next build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@primer/octicons-react": "^9.1.1",
+    "chart.js": "^2.8.0",
+    "gh-polyglot": "^2.3.2",
+    "next": "^9.3.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-flip-move": "^3.0.3",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@upstatement/eslint-config": "^0.4.2",
+    "@upstatement/prettier-config": "^0.3.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohitjaisal/GithubPro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohitjaisal/GithubPro/issues"
+  },
+  "homepage": "https://github.com/mohitjaisal/GithubPro#readme"
+}
