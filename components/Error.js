@@ -16,14 +16,14 @@ const ErrorStyles = styled.div`
   padding-bottom: 20vh;
   font-size: 1.5rem;
   svg {
-    color: ${colors.blue};
+    color: ${colors.grey};
     margin-bottom: 3rem;
   }
   p {
     font-size: 1rem;
   }
   a {
-    color: ${colors.lightblue};
+    color: ${colors.gray};
     &:hover,
     &:focus {
       text-decoration: underline;
@@ -33,10 +33,10 @@ const ErrorStyles = styled.div`
 
 const Error = ({ error }) => (
   <ErrorStyles>
-    <Head title="OctoProfile" />
+    <Head title="GitubPro" />
     <Corner />
     <Octicon icon={MarkGithub} size="large" />
-    <h1>OctoProfile</h1>
+    <h1>Github Profile</h1>
 
     {error && (
       <div>
