@@ -1,10 +1,28 @@
-<h1><img src="https://raw.githubusercontent.com/mohitjaisal/ImageStore/d1849d41e64c071784e0f728e9a7b239d1d81d32/SvgStore/Tools-Icons/github.svg" width="2.5%"></img> GithubPro</h1>
+<p align = "center">
+ <img src="https://raw.githubusercontent.com/mohitjaisal/ImageStore/d1849d41e64c071784e0f728e9a7b239d1d81d32/SvgStore/Tools-Icons/github.svg" width="10%"/> 
+</p>
+<h1 align = "center"> 
+ GithubPro
+</h1>
 
-A nicer look at your GitHub Profile! With charts!
+## Overview:
 
-![demo](https://github.com/mohitjaisal/GithubPro/blob/master/static/GP.png)
+An improved method of showcasing your GitHub Profile!
 
-Built with:
+## Screenshot
+
+<img src="https://github.com/mohitjaisal/GithubPro/blob/master/static/GP.png" />
+
+## Demo :globe_with_meridians:
+
+To see the live project click [HERE](https://githubpro.netlify.app/)
+
+## Features 
+- View charts of Top languages used
+- Graphs indicating most Starred
+- Filter your repos by size, stars and forks 
+
+## Built with :hammer_and_wrench:
 
 - [Next.js](https://nextjs.org/)
 - [GitHub Polyglot](https://github.com/IonicaBizau/node-gh-polyglot)
